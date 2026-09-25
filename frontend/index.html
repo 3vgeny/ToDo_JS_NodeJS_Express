@@ -16,21 +16,22 @@
             </div>
             <div class="control-elements">
                 <div class="checkbox-with-label">
-                    <input class="checkbox" id="button-select-all-tasks" type="checkbox">
+                    <input class="checkbox" id="button-select-all-tasks" type="checkbox" disabled>
                     <label for="button-select-all-tasks">Select all tasks</label>
                 </div>
-                <button class="button" id="button-delete-completed-tasks">Delete completed tasks</button>
+                <button class="button" id="button-delete-completed-tasks" disabled>Delete completed tasks</button>
             </div>
             <div class="tabs-and-list-tasks">
                 <nav class="tabs">
-                    <button class="button" id="button-all-tasks">All (0)</button>
-                    <button class="button" id="button-active-tasks">Active (0)</button>
-                    <button class="button" id="button-completed-tasks">Completed (0)</button>
+                    <button class="button tab"id="button-all-tasks" disabled>All (0)</button>
+                    <button class="button tab" id="button-active-tasks" disabled>Active (0)</button>
+                    <button class="button tab" id="button-completed-tasks" disabled>Completed (0)</button>
                 </nav>
                 <ul class="list-tasks"></ul>
             </div>
             <div class="pagination-bar"></div>
         </main>
     </section>
+    <script src="./script.js"></script>
 </body>
 </html>
